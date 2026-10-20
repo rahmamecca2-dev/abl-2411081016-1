@@ -23,7 +23,7 @@ public class OrderService {
     @Autowired
     private RestTemplate restTemplate;
 
-    @Value("${service.produk.url:http://localhost:8080/api/produk}")
+    @Value("${service.produk.url:http://localhost:8083/api/produk}")
     private String produkServiceUrl;
 
     @Value("${service.pelanggan.url:http://localhost:8081/api/pelanggan}")
